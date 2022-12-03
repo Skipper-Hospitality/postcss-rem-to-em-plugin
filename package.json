@@ -1,5 +1,5 @@
 {
-  "name": "postcss-rem-to-em-plugin",
+  "name": "@skipper-hospitality/postcss-rem-to-em-plugin",
   "version": "0.0.0",
   "description": "PostCSS plugin that converts 'rem' references to 'em' references",
   "keywords": [
@@ -52,5 +52,6 @@
       }
     }
   },
-  "dependencies": {}
+  "dependencies": {},
+  "type": "module"
 }
