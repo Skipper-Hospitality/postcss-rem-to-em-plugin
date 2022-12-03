@@ -1,6 +1,3 @@
-/**
- * @type {import('postcss').PluginCreator}
- */
 // basic regex -- [whitespace](number)(rem)[whitespace or ;]
 const REM_REGEX = /(\d*\.?\d+\s?)(rem)/ig
 const PROCESSED = Symbol('processed')
