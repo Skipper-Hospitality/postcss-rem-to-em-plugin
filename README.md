@@ -6,13 +6,13 @@
 
 ```css
 .foo {
-  /* Input example */
+  font-size: 30rem;
 }
 ```
 
 ```css
 .foo {
-  /* Output example */
+  font-size: 30em;
 }
 ```
 
@@ -31,7 +31,7 @@ or `postcss` in bundle config.
 If you do not use PostCSS, add it according to [official docs]
 and set this plugin in settings.
 
-**Step 3:** Add the plugin to plugins list:
+**Step 3:** Add the plugin to plugins list. If you are using a PostCSS postprocessor and bundler like TailwindCSS, you will want to run this after it:
 
 ```diff
 module.exports = {
