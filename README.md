@@ -21,7 +21,7 @@
 **Step 1:** Install plugin:
 
 ```sh
-npm install --save-dev postcss postcss-rem-to-em-plugin
+npm install --save-dev postcss @skipper-hospitality/postcss-rem-to-em-plugin
 ```
 
 **Step 2:** Check you project for existed PostCSS config: `postcss.config.js`
